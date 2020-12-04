@@ -1,0 +1,136 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.20;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+
+.sidebar__channelsList {
+    overflow: scroll;
+    padding: 10px;
+    height: 60vh;
+}
+
+.sidebar__channelsList:-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar__channelsList {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.sidebar__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #4c5cf9;
+    border-bottom: 3px solid #ffffff;
+}
+
+.logo {
+    display: flex;
+    padding-left: 5px;
+    height: 45px;
+    align-items: center;
+    justify-items: center;
+  }
+
+.sidebar__channels {
+    flex: 1;
+}
+
+.sidebar__addChannel {
+    cursor: pointer; 
+}
+
+.sidebar__addChannel:hover {
+    color: white; 
+}
+
+.sidebar__channelsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #febf06;
+    color: rgb(0, 0, 0);
+}
+
+.sidebar__header {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__voice, 
+.sidebar__profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+
+.sidebar__voiceInfo {
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar__voiceIcon {
+    color: #4fb185;   
+}
+
+.sidebar__voiceInfo >h3 {
+    color: #4fb185;   
+}
+
+.sidebar__voiceInfo >p {
+    font-size: smaller;   
+}
+
+.sidebar__voiceIcons > .MuiSvgIcon-root {
+    padding: 10px;
+}
+
+.sidebar__profileInfo {
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar__profileInfo > h3 {
+    color: rgb(0, 0, 0);
+}
+
+.sidebar__profileIcons > .MuiSvgIcon-root {
+    padding: 10px;
+    
+}
+
+.sidebar__signout > .MuiSvgIcon-root {
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+.sidebar__signout:hover {
+    color: #465cf9;
+}
+
+.sidebar__videoCall > .MuiSvgIcon-root {
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+.sidebar__videoCall:hover {
+    color: #465cf9;
+}
+
+
+

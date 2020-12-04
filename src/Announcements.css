@@ -1,0 +1,62 @@
+.announcements {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-image: url("./bg-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #113b6f;
+    height: 100vh;      
+    
+    
+    
+}
+
+.announcement__input {
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    border-top: 1px solid gray;
+    background-color: #d7d4d4;
+}
+
+.announcement__input > form > input {
+    padding: 15px;
+    background: transparent;
+    width: 100%;
+    border: none;
+    outline-width: 0;
+    color: rgb(27, 27, 27);
+    font-size: large;
+}
+
+.announcement__input > form {
+    flex: 1;
+}
+
+.announcement__inputButton {
+    display: none;
+}
+
+.announcement__inputIcons > .MuiSvgIcon-root {
+    padding: 5px;
+}
+
+.announcement__messages {
+    flex: 1;
+    overflow: scroll;
+    padding: 10px
+}
+
+.announcement__messages::-webkit-scrollbar {
+    display: none
+}
+
+.announcement__messages {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

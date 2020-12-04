@@ -1,0 +1,28 @@
+.announcementDisplay {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-image: url("./bg-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #113b6f;
+    height: 100vh;      
+    
+    
+    
+}
+
+.announcement__messages {
+    flex: 1;
+    overflow: scroll;
+    padding: 10px
+}
+
+.announcement__messages::-webkit-scrollbar {
+    display: none
+}
+
+.announcement__messages {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
